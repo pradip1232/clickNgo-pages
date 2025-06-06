@@ -4,7 +4,7 @@ import { Card, CardContent } from "../../../../components/ui/card";
 
 export const FooterSection = (): JSX.Element => {
   return (
-    <div className="flex flex-wrap justify-between items-center gap-8 md:gap-[150px] w-full py-10">
+    <div className="flex flex-wrap justify-between items-center gap-8 md:gap-[150px] w-full max-w-[1156px]  py-10">
       <div className="flex items-center p-2.5">
         <img
           className="w-auto h-auto max-w-[485px] max-h-[501px]"

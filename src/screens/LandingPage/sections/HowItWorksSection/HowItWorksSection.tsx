@@ -42,7 +42,7 @@ export const HowItWorksSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="flex flex-col w-full max-w-[1156px] items-start gap-[50px]">
+    <section className="flex flex-col w-full max-w-[1156px] items-start gap-[50px] mt-[10rem] pt-5 ">
       <div className="flex flex-col items-start">
         <h2 className="font-headline text-text text-[length:var(--headline-font-size)] font-[number:var(--headline-font-weight)] tracking-[var(--headline-letter-spacing)] leading-[var(--headline-line-height)] [font-style:var(--headline-font-style)]">
           How It Works

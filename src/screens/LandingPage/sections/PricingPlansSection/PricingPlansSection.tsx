@@ -19,7 +19,7 @@ const enterpriseFeatures = [
 
 export const PricingPlansSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-center gap-[90px] w-full">
+    <section className="flex flex-col items-center gap-[90px] w-full max-w-[1156px]">
       <div className="flex flex-col items-start gap-[90px] w-full">
         <div className="flex flex-col items-start">
           <div className="relative">

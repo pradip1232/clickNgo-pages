@@ -52,7 +52,8 @@ const featureCards = [
 
 export const FeaturesSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-start gap-[73px] w-full">
+    <section className="flex flex-col w-full max-w-[1156px] items-start gap-[73px] w-full">
+
       <div className="flex flex-col items-start">
         <div className="flex items-center w-full">
           <h2 className="font-headline text-text text-[length:var(--headline-font-size)] font-[number:var(--headline-font-weight)] tracking-[var(--headline-letter-spacing)] leading-[var(--headline-line-height)] [font-style:var(--headline-font-style)]">

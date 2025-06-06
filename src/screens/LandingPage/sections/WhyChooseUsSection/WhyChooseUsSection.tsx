@@ -33,7 +33,7 @@ const featureCards = [
 
 export const WhyChooseUsSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-center gap-2.5 p-2.5 w-full max-w-[1156px] mx-auto">
+    <section className="flex flex-col items-center gap-2.5 p-2.5 w-full max-w-[1156px] mt-[55px] mx-auto">
       <div className="flex flex-col items-center gap-[35px] w-full">
         <div className="flex flex-col items-center gap-12">
           <header>
