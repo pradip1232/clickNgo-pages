@@ -1,6 +1,13 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 
+import ffl from '../../../../assets/img/name-1.png';
+import tt from '../../../../assets/img/Twitter X.webp';
+import ii from '../../../../assets/img/Instagram.webp';
+import ff from '../../../../assets/img/Facebook.webp';
+import li from '../../../../assets/img/LinkedIn.webp';
+import MM from '../../../../assets/img/Mail.webp';
+
 export const FooterLinksSection = (): JSX.Element => {
   // Footer links data
   const footerLinks = [
@@ -14,35 +21,35 @@ export const FooterLinksSection = (): JSX.Element => {
     {
       id: 1,
       alt: "Vector",
-      src: "/vector.png",
+      src: tt,
       width: "25.69px",
       height: "21.2px",
     },
     {
       id: 2,
       alt: "Vector",
-      src: "/vector-1.png",
+      src: ii,
       width: "29.98px",
       height: "29.99px",
     },
     {
       id: 3,
       alt: "Vector",
-      src: "/vector-2.png",
+      src: ff,
       width: "18.67px",
       height: "34.52px",
     },
     {
       id: 4,
       alt: "Vector",
-      src: "/vector-3.png",
+      src: li,
       width: "29.15px",
       height: "27.89px",
     },
     {
       id: 5,
       alt: "Icon",
-      src: "/icon.png",
+      src: MM,
       width: "43.62px",
       height: "37.33px",
     },
@@ -54,7 +61,7 @@ export const FooterLinksSection = (): JSX.Element => {
         <img
           className="relative w-[471.27px] h-[262.58px]"
           alt="Name"
-          src="/name-1.png"
+          src={ffl}
         />
       </div>
 

@@ -1,32 +1,39 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
+import aa from '../../../../assets/img/group-1.png';
+import bb from '../../../../assets/img/group-2.png';
+import cc from '../../../../assets/img/group-3.png';
+import dd from '../../../../assets/img/group-4.png';
+import ee from '../../../../assets/img/group-5.png';
+
+
 // Feature card data for mapping
 const featureCards = [
   {
     id: 1,
-    iconUrl: "/group-1.png",
+    iconUrl: aa,
     description: "Fully automated workflows from start to finish.",
   },
   {
     id: 2,
-    iconUrl: "/group-2.png",
+    iconUrl: bb,
     description: "No follow-ups, no scrambling, no micromanaging. Just flow.",
   },
   {
     id: 3,
-    iconUrl: "/group-3.png",
+    iconUrl: cc,
     description:
       "Designed for small teams or even solo organizers with big plans.",
   },
   {
     id: 4,
-    iconUrl: "/group-4.png",
+    iconUrl: dd,
     description: "No hidden charges, no surprises",
   },
   {
     id: 5,
-    iconUrl: "/group-5.png",
+    iconUrl: ee,
     description: "Works behind-the-scenes, 24/7 — even when you're not.",
   },
 ];

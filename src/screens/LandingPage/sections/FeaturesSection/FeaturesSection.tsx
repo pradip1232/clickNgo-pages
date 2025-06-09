@@ -1,6 +1,10 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
+
+import ss from '../../../../assets/img/Smart & Efficient.webp';
+import lsc from '../../../../assets/img/Locked & Secured Control.webp';
+
 // Feature card data for mapping
 const featureCards = [
   {
@@ -15,7 +19,7 @@ const featureCards = [
     ],
   },
   {
-    icon: "/vector-5.svg",
+    icon: ss,
     title: "Smart & Efficient",
     shortDescription:
       "Everything auto-updated. Runs faster than your ops team ever could.",

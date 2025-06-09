@@ -4,6 +4,9 @@ import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
 
+import ff from '../../../../assets/img/Freemium.webp';
+import ee from '../../../../assets/img/Enterprise.webp';
+
 // Feature data for pricing plans
 const freemiumFeatures = [
   "100 attendee tokens free per event",
@@ -40,7 +43,7 @@ export const PricingPlansSection = (): JSX.Element => {
               <img
                 className="w-[28.62px] h-[37.18px]"
                 alt="Freemium icon"
-                src="/group.png"
+                src={ff}
               />
             </div>
 
@@ -86,7 +89,7 @@ export const PricingPlansSection = (): JSX.Element => {
               <img
                 className="w-[36.84px] h-[38.49px]"
                 alt="Enterprise icon"
-                src="/group-6.png"
+                src={ee}
               />
             </div>
 
